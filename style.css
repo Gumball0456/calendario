@@ -1,0 +1,38 @@
+*{
+    color: #FDF0D5; 
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #669BBC;
+}
+select, label, option{
+    color: #001e2e;
+}
+.flex-container{
+    width: 300px;
+    margin-top: 10%;
+    align-self: center;
+}
+
+#calendario{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10%;
+}
+
+.nomeDiasSemana, .caixaVazia{
+    flex: 0 1 32px;
+    box-sizing: border-box;
+    margin: 1%;
+    padding: 2%;
+}
+.dia{
+    flex: 0 1 32px;
+    box-sizing: border-box;
+    margin: 1%;
+    padding: 2%;
+    border-radius: 10%;
+    background-color: #003049;
+}
